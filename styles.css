@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+}
+
+.gameboard {
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+}
+
+/***********************************
+  Game Board Borders
+***********************************/
+
+#square-0 {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#square-1 {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#square-2 {
+  border-bottom: 5px solid black;
+}
+
+#square-3 {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#square-4 {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#square-5 {
+  border-bottom: 5px solid black;
+}
+
+#square-6 {
+  border-right: 5px solid black;
+}
+
+#square-7 {
+  border-right: 5px solid black;
+}
